@@ -18,7 +18,7 @@ def get_japanese_emoticon(path, emoticon_symbol)
   
 load_library(path)
 
-emoticon[:get_emoticon][emoticon_symbol]
+#emoticon[:get_emoticon][emoticon_symbol]
 
 end
 
