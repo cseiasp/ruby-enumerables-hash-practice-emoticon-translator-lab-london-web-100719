@@ -37,7 +37,7 @@ def get_english_meaning(path, emoticon_symbol)
   #answer = "Sorry, that emoticon was not found"
 #end
 
-answer
-end
+#answer
+#end
   
 end
