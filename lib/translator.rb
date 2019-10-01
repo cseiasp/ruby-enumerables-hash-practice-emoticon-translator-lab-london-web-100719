@@ -18,7 +18,7 @@ def get_japanese_emoticon(path, emoticon_symbol)
   
 emoti_lib = load_library(path)
 
-if emoti_lib[:get_emoticon].include? emoticon_symbol.to_s
+if emoti_lib[:get_emoticon].include? emoticon_symbol
   answer = emoti_lib[:get_emoticon][emoticon_symbol]
 else
   answer = "Sorry, that emoticon was not found"
