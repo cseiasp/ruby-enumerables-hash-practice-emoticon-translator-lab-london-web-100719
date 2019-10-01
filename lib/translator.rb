@@ -18,11 +18,11 @@ def get_japanese_emoticon(path, emoticon_symbol)
   
 emoti_lib = load_library(path)
 
-if emoti_lib.include? emoticon_symbol
+#if emoti_lib.include? emoticon_symbol
 
 answer = emoti_lib[:get_emoticon][emoticon_symbol]
 
-end
+#end
 answer
 end
 
