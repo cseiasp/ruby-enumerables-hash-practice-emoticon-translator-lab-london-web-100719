@@ -8,9 +8,8 @@ def load_library(path)
     new_hash.each do |meaning,emoticons|
       
         emoticon[:get_meaning][emoticons[1]] = meaning
-        emoticon[:get_emoticon][emoticons[0]] = meaning emoticons
-        
-      
+        emoticon[:get_emoticon][emoticons[0]] = meaning
+    
     end
     
     emoticon
