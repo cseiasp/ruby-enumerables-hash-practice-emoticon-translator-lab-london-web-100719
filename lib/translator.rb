@@ -20,10 +20,10 @@ emoti_lib = load_library(path)
 
 if emoti_lib.include? emoticon_symbol
 
-emoti_lib[:get_emoticon][emoticon_symbol]
+answer = emoti_lib[:get_emoticon][emoticon_symbol]
 
 end
-
+answer
 end
 
 def get_english_meaning
